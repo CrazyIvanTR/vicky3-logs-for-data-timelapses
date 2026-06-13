@@ -14,6 +14,8 @@ All the logs that are put inside debug.log will also be put inside 00-full-debug
 
 Install python, I tested on 3.14, should work with almost any version since it's pretty basic code.
 
+Download this as a zip and extract to logs folder to run more easily. I used that exact method, just made the files under there and copied them over to the repo.
+
 Some lines will be duplicates, to check for duplicates run `py check_for_duplicates_in_original.py` to check 00-full-debug.txt
 
 Run the file `py remove_duplicates.py` to remove duplicates from 00-full-debug.txt and write to 00-full-debug-deduplicated.txt
